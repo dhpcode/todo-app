@@ -17,6 +17,75 @@
 </head>
 
 <body>
+  <main class="main-content">
+    <div class="container">
+      <div class="app">
+        <!-- Header -->
+        <div class="app__header">
+          <h1>Todo</h1>
+          <img src="images/icon-dark-toggle.svg" alt="icon dark toggle" width="19.5" height="20">
+        </div>
+        
+        <!-- App content -->
+        <div class="app__content">
+          <!-- Create todo -->
+          <div class="app_create-todo">
+            <img class="app__create-todo-img" src="images/icon-check-empty.svg" alt="icon check empty" width="20"
+              height="20">
+            <span>Create a new todo</span>
+          </div>
+          <!-- Todos list -->
+          <ul class="app__todos todos">
+            <li class="todos__item">
+              <img class="icon-check" src="images/icon-checked.svg" alt="Icon checked" width="20" height="20">
+              <span>Complere online JavaScript course</span>
+              <img class="icon-delete" src="images/icon-delete.svg" alt="" width="12" height="12">
+            </li>
+            <li class="todos__item">
+              <img class="icon-check" src="images/icon-check-empty.svg" alt="Icon checked" width="20" height="20">
+              <span>Jog around the park 3x</span>
+              <img class="icon-delete" src="images/icon-delete.svg" alt="" width="12" height="12">
+            </li>
+            <li class="todos__item">
+              <img class="icon-check" src="images/icon-check-empty.svg" alt="Icon checked" width="20" height="20">
+              <span>10 minutes meditation</span>
+              <img class="icon-delete" src="images/icon-delete.svg" alt="" width="12" height="12">
+            </li>
+            <li class="todos__item">
+              <img class="icon-check" src="images/icon-check-empty.svg" alt="Icon checked" width="20" height="20">
+              <span>Read for 1 hour</span>
+              <img class="icon-delete" src="images/icon-delete.svg" alt="" width="12" height="12">
+            </li>
+            <li class="todos__item">
+              <img class="icon-check" src="images/icon-check-empty.svg" alt="Icon checked" width="20" height="20">
+              <span>Pick up groceries</span>
+              <img class="icon-delete" src="images/icon-delete.svg" alt="" width="12" height="12">
+            </li>
+            <li class="todos__item">
+              <img class="icon-check" src="images/icon-check-empty.svg" alt="Icon checked" width="20" height="20">
+              <span>Complete Todo App on Frontend Mentor</span>
+              <img class="icon-delete" src="images/icon-delete.svg" alt="" width="12" height="12">
+            </li>
+            <li class="todos__item todos__item-left">
+              <span>5 items left</span>
+              <a href="#" class="todos__item-left-btn">Clear completed</a>
+            </li>
+          </ul>
+          <!-- App links -->
+          <div class="app__links">
+            <a href="#" class="app__links-link">All</a>
+            <a href="#" class="app__links-link">Active</a>
+            <a href="#" class="app__links-link">Completed</a>
+          </div>
+        </div>
+
+        <!-- Drag and drop -->
+        <div class="app__drag-drop">
+          Drag and drop to reorder list
+        </div>
+      </div>
+    </div>
+  </main>
 
 
   <script src="js/main.js"></script>
