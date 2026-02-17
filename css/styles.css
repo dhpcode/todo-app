@@ -4,6 +4,7 @@
 /* Custom props */
 :root {
 	--blue-color: #3a7cfd;
+	--white-color: #fff;
 }
 
 /* Global styles */
@@ -11,7 +12,7 @@ html {
 	box-sizing: border-box;
 	height: 100%;
 	scroll-behavior: smooth;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 *,
@@ -86,12 +87,17 @@ select:-webkit-autofill:focus {
 
 /*===== Body =====*/
 body {
-	background-image: url('../images/background/light-bg-mobile.jpg');
+	background-image: url("../images/background/light-bg-mobile.jpg");
 	background-size: 500px 200px;
 	background-repeat: no-repeat;
 	background-position: top center;
 }
 
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 /* MAIN CONTENT */
 .main-content {
 	flex-grow: 1;
@@ -104,4 +110,55 @@ body {
 	only screen and (min-device-pixel-ratio: 2),
 	only screen and (min-resolution: 192dpi),
 	only screen and (min-resolution: 2dppx) {
+}
+
+.app {
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+.app__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--white-color);
+}
+.app__header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	font-size: 1.5rem;
+}
+
+.app__header img {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.app__content {
+}
+.app_create-todo {
+}
+.app__create-todo-img {
+}
+.app__todos {
+}
+.todos {
+}
+.todos__item {
+}
+.icon-check {
+}
+.icon-delete {
+}
+.todos__item-left {
+}
+.todos__item-left-btn {
+}
+.app__links {
+}
+.app__links-link {
+}
+.app__drag-drop {
 }
