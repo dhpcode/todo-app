@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Todo APP</title>
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -25,15 +25,16 @@
           <h1>Todo</h1>
           <img src="images/icon-dark-toggle.svg" alt="icon dark toggle" width="19.5" height="20">
         </div>
-        
+
         <!-- App content -->
         <div class="app__content">
           <!-- Create todo -->
           <div class="app_create-todo">
             <img class="app__create-todo-img" src="images/icon-check-empty.svg" alt="icon check empty" width="20"
               height="20">
-            <span>Create a new todo</span>
+            <input type="text" name="create-todo" placeholder="Create a new todo ...">
           </div>
+
           <!-- Todos list -->
           <ul class="app__todos todos">
             <li class="todos__item">
@@ -73,7 +74,7 @@
           </ul>
           <!-- App links -->
           <div class="app__links">
-            <a href="#" class="app__links-link">All</a>
+            <a href="#" class="app__links-link app__links-link-active">All</a>
             <a href="#" class="app__links-link">Active</a>
             <a href="#" class="app__links-link">Completed</a>
           </div>
