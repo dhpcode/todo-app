@@ -39,7 +39,7 @@
           <ul class="app__todos todos">
             <li class="todos__item">
               <img class="icon-check" src="images/icon-checked.svg" alt="Icon checked" width="20" height="20">
-              <span>Complere online JavaScript course</span>
+              <span class="todos__item-finished">Complere online JavaScript course</span>
               <img class="icon-delete" src="images/icon-delete.svg" alt="" width="12" height="12">
             </li>
             <li class="todos__item">
@@ -69,11 +69,19 @@
             </li>
             <li class="todos__item todos__item-left">
               <span>5 items left</span>
+              <!-- App links desktop -->
+              <div class="app__links app__links-mobile">
+                <a href="#" class="app__links-link app__links-link-active">All</a>
+                <a href="#" class="app__links-link">Active</a>
+                <a href="#" class="app__links-link">Completed</a>
+              </div>
+
               <a href="#" class="todos__item-left-btn">Clear completed</a>
             </li>
           </ul>
-          <!-- App links -->
-          <div class="app__links">
+
+          <!-- App links molile-->
+          <div class="app__links app__links-desktop">
             <a href="#" class="app__links-link app__links-link-active">All</a>
             <a href="#" class="app__links-link">Active</a>
             <a href="#" class="app__links-link">Completed</a>
